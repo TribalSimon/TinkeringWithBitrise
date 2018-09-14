@@ -30,12 +30,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ksn-RE-w9E">
+                                <rect key="frame" x="166" y="381" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="qsm-OL-zPr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3gP-qm-gcf"/>
+                            <constraint firstItem="Ksn-RE-w9E" firstAttribute="top" secondItem="l0A-pF-LBg" secondAttribute="bottom" constant="8" id="8DK-Ye-C4Y"/>
                             <constraint firstItem="l0A-pF-LBg" firstAttribute="top" secondItem="qsm-OL-zPr" secondAttribute="bottom" constant="8" id="JMb-mO-5kH"/>
                             <constraint firstItem="qsm-OL-zPr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PeY-at-DDX"/>
+                            <constraint firstItem="Ksn-RE-w9E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XK4-7x-fpW"/>
                             <constraint firstItem="l0A-pF-LBg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s8U-u8-Ubj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
