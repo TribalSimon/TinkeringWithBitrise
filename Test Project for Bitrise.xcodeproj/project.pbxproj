@@ -13,6 +13,11 @@
 		5E2E710D214C56C400BD7D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2E710C214C56C400BD7D97 /* Assets.xcassets */; };
 		5E2E7110214C56C400BD7D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2E710E214C56C400BD7D97 /* LaunchScreen.storyboard */; };
 		5E2E711B214C56C400BD7D97 /* Test_Project_for_BitriseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2E711A214C56C400BD7D97 /* Test_Project_for_BitriseTests.swift */; };
+		5E9B384521507E6300147D97 /* Cuckoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9B384421507E6300147D97 /* Cuckoo.framework */; };
+		5E9B384721507E6600147D97 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9B384621507E6600147D97 /* Nimble.framework */; };
+		5E9B384921507E6800147D97 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9B384821507E6800147D97 /* Quick.framework */; };
+		5E9B384D21507F9C00147D97 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9B384C21507F9C00147D97 /* Test.swift */; };
+		5E9B38502150809800147D97 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9B384F2150809800147D97 /* GeneratedMocks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		5E2E7116214C56C400BD7D97 /* Test Project for BitriseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Project for BitriseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2E711A214C56C400BD7D97 /* Test_Project_for_BitriseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Project_for_BitriseTests.swift; sourceTree = "<group>"; };
 		5E2E711C214C56C400BD7D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E9B384421507E6300147D97 /* Cuckoo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cuckoo.framework; path = Carthage/Build/iOS/Cuckoo.framework; sourceTree = "<group>"; };
+		5E9B384621507E6600147D97 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		5E9B384821507E6800147D97 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		5E9B384C21507F9C00147D97 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		5E9B384F2150809800147D97 /* GeneratedMocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9B384521507E6300147D97 /* Cuckoo.framework in Frameworks */,
+				5E9B384721507E6600147D97 /* Nimble.framework in Frameworks */,
+				5E9B384921507E6800147D97 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +75,7 @@
 				5E2E7104214C56C200BD7D97 /* Test Project for Bitrise */,
 				5E2E7119214C56C400BD7D97 /* Test Project for BitriseTests */,
 				5E2E7103214C56C200BD7D97 /* Products */,
+				5E9B384321507E6300147D97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +97,7 @@
 				5E2E710C214C56C400BD7D97 /* Assets.xcassets */,
 				5E2E710E214C56C400BD7D97 /* LaunchScreen.storyboard */,
 				5E2E7111214C56C400BD7D97 /* Info.plist */,
+				5E9B384C21507F9C00147D97 /* Test.swift */,
 			);
 			path = "Test Project for Bitrise";
 			sourceTree = "<group>";
@@ -90,10 +105,21 @@
 		5E2E7119214C56C400BD7D97 /* Test Project for BitriseTests */ = {
 			isa = PBXGroup;
 			children = (
-				5E2E711A214C56C400BD7D97 /* Test_Project_for_BitriseTests.swift */,
 				5E2E711C214C56C400BD7D97 /* Info.plist */,
+				5E9B384F2150809800147D97 /* GeneratedMocks.swift */,
+				5E2E711A214C56C400BD7D97 /* Test_Project_for_BitriseTests.swift */,
 			);
 			path = "Test Project for BitriseTests";
+			sourceTree = "<group>";
+		};
+		5E9B384321507E6300147D97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E9B384821507E6800147D97 /* Quick.framework */,
+				5E9B384621507E6600147D97 /* Nimble.framework */,
+				5E9B384421507E6300147D97 /* Cuckoo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +132,7 @@
 				5E2E70FE214C56C200BD7D97 /* Sources */,
 				5E2E70FF214C56C200BD7D97 /* Frameworks */,
 				5E2E7100214C56C200BD7D97 /* Resources */,
+				5E9B384E2150807A00147D97 /* Cuckoo - Generated Mocks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +150,7 @@
 				5E2E7112214C56C400BD7D97 /* Sources */,
 				5E2E7113214C56C400BD7D97 /* Frameworks */,
 				5E2E7114214C56C400BD7D97 /* Resources */,
+				5E9B384A21507E8800147D97 /* Carthage - Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,6 +220,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E9B384A21507E8800147D97 /* Carthage - Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Cuckoo.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+			);
+			name = "Carthage - Copy Frameworks";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Cuckoo.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Nimble.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		5E9B384E2150807A00147D97 /* Cuckoo - Generated Mocks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Cuckoo - Generated Mocks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Define output file. Change \"$PROJECT_DIR/${PROJECT_NAME}Tests\" to your test's root source folder, if it's not the default name.\nOUTPUT_FILE=\"$PROJECT_DIR/${PROJECT_NAME}Tests/GeneratedMocks.swift\"\necho \"Generated Mocks File = $OUTPUT_FILE\"\n\n# Define input directory. Change \"${PROJECT_DIR}/${PROJECT_NAME}\" to your project's root source folder, if it's not the default name.\nINPUT_DIR=\"${PROJECT_DIR}/${PROJECT_NAME}\"\necho \"Mocks Input Directory = $INPUT_DIR\"\n\n# Generate mock files, include as many input files as you'd like to create mocks for.\n\"Carthage/Checkouts/Cuckoo/run\" generate --testable \"$PROJECT_NAME\" \\\n--output \"${OUTPUT_FILE}\" \\\n\"$INPUT_DIR/Test.swift\"\n# ... and so forth, the last line should never end with a backslash\n\n# After running once, locate `GeneratedMocks.swift` and drag it into your Xcode test target group.";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E2E70FE214C56C200BD7D97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -199,6 +264,7 @@
 			files = (
 				5E2E7108214C56C200BD7D97 /* ViewController.swift in Sources */,
 				5E2E7106214C56C200BD7D97 /* AppDelegate.swift in Sources */,
+				5E9B384D21507F9C00147D97 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E2E711B214C56C400BD7D97 /* Test_Project_for_BitriseTests.swift in Sources */,
+				5E9B38502150809800147D97 /* GeneratedMocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +464,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GUHK8L5H2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Test Project for BitriseTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -418,6 +489,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GUHK8L5H2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Test Project for BitriseTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
