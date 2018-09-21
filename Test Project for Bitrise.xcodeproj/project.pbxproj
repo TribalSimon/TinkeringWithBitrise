@@ -428,13 +428,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5GUHK8L5H2;
+				DEVELOPMENT_TEAM = QWKKLM397G;
 				INFOPLIST_FILE = "Test Project for Bitrise/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tribalscale.Test-Project-for-Bitrise";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simon.test-project-for-bitrise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,13 +446,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5GUHK8L5H2;
+				DEVELOPMENT_TEAM = QWKKLM397G;
 				INFOPLIST_FILE = "Test Project for Bitrise/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tribalscale.Test-Project-for-Bitrise";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simon.test-project-for-bitrise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
